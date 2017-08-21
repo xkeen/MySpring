@@ -5,11 +5,12 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import com.xke.myspring.tinyioc.factory.AbstractBeanFactory;
-import com.xke.myspring.tinyioc.factory.AutowireCapableBeanFactory;
-import com.xke.myspring.tinyioc.factory.BeanFactory;
-import com.xke.myspring.tinyioc.io.ResourceLoader;
-import com.xke.myspring.tinyioc.xml.XmlBeanDefinitionReader;
+import com.xke.myspring.tinyioc.beans.BeanDefinition;
+import com.xke.myspring.tinyioc.beans.factory.AbstractBeanFactory;
+import com.xke.myspring.tinyioc.beans.factory.AutowireCapableBeanFactory;
+import com.xke.myspring.tinyioc.beans.factory.BeanFactory;
+import com.xke.myspring.tinyioc.beans.io.ResourceLoader;
+import com.xke.myspring.tinyioc.beans.xml.XmlBeanDefinitionReader;
 
 
 public class BeanFactoryTest {

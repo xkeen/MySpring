@@ -6,6 +6,9 @@ import java.io.InputStream;
 import org.junit.Assert;
 import org.junit.Test;
 
+import com.xke.myspring.tinyioc.beans.io.Resource;
+import com.xke.myspring.tinyioc.beans.io.ResourceLoader;
+
 
 
 public class ResourceLoaderTest {

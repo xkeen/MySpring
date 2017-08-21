@@ -7,8 +7,9 @@ import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.xke.myspring.tinyioc.BeanDefinition;
-import com.xke.myspring.tinyioc.io.ResourceLoader;
+import com.xke.myspring.tinyioc.beans.BeanDefinition;
+import com.xke.myspring.tinyioc.beans.io.ResourceLoader;
+import com.xke.myspring.tinyioc.beans.xml.XmlBeanDefinitionReader;
 
 
 public class XmlBeanDefinitionReaderTest {
