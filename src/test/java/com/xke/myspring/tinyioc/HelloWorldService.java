@@ -1,15 +1,21 @@
 package com.xke.myspring.tinyioc;
 
-/**
- * @author yihua.huang@dianping.com
- */
+
 public class HelloWorldService {
 
     private String text;
+    
+    private OutputService outputService;
+    
+    
 
-    public void helloWorld(){
+	public void setOutputService(OutputService outputService) {
+		this.outputService = outputService;
+	}
+
+	public void helloWorld(){
     	
-        System.out.println(text);
+        outputService.output(text);
     }
 
     public void setText(String text) {

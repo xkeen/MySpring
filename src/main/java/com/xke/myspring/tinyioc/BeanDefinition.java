@@ -1,5 +1,11 @@
 package com.xke.myspring.tinyioc;
 
+
+/**
+ * bean的内容及元数据，保存在BeanFactory中，包装bean的实体
+ * @author xiekeen
+ *
+ */
 public class BeanDefinition {
 	private Object bean;
 
@@ -7,7 +13,7 @@ public class BeanDefinition {
 
 	private String beanClassName;
 	
-	private PropertyValues propertyValues;
+	private PropertyValues propertyValues = new PropertyValues();
 
 	public PropertyValues getPropertyValues() {
 		return propertyValues;
