@@ -16,7 +16,11 @@ import com.xke.myspring.tinyioc.beans.BeanDefinition;
 import com.xke.myspring.tinyioc.beans.PropertyValue;
 import com.xke.myspring.tinyioc.beans.PropertyValues;
 import com.xke.myspring.tinyioc.beans.io.ResourceLoader;
-
+/**
+ * xml解析bean
+ * @author xiekeen
+ *
+ */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader{
 
 	public XmlBeanDefinitionReader(ResourceLoader resourceLoader) {
@@ -62,7 +66,7 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader{
 		
 	}
 /**
- * 解析bean
+ * 解析bean节点
  * @param element
  */
 	protected void processBeanDefinition(Element element) {
@@ -76,7 +80,7 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader{
 		
 	}
 /**
- * 解析bean的属性值
+ * 解析bean节点的属性值
  * @param element
  * @param beanDefinition
  */
